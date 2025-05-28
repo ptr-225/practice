@@ -1,0 +1,85 @@
+/* 
+utf-8
+*/
+
+@charset "utf-8";
+
+/* 
+basic
+*/
+
+html,
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 62.5%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/*
+@media 
+iphone : 390x844
+iphone(landscape) : 844x390
+ipad : 1024z1366
+monitor : 1280 or more
+*/
+
+@media screen and (max-width: 767px) {
+}
+@media (orientation: landscape) and (max-width: 932px) {
+}
+@media (767px < width < 1280px) {
+}
+@media (1280px < width) {
+}
+
+/* 
+z-index
+*/
+
+header {
+  z-index: 1000;
+}
+
+.hamburger-icon {
+  z-index: 900;
+}
+
+.hamburger-menu {
+}
+
+/*
+pc or sp
+*/
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: inline;
+  }
+}
+
+/*
+margin
+*/
+
